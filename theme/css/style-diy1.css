@@ -2828,3 +2828,19 @@ pre code {
         margin-top:-2em
     }
 }
+
+.bottom-bar {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 999;
+    width: 36px;
+    display: flex;
+    flex-direction: column;
+    background-color: #18a8df;
+    border-radius: 2px;
+}
+
+.bottom-bar a {
+    width: 100%;
+}
